@@ -3,20 +3,19 @@ package com.bridgelabz.stacksandqueues;
 public class StacksAndQueues{
 	 public static void main(String[] args) {
 
-		 MyStacks myStack = new MyStacks();
-	        myStack.push(70);
-	        myStack.push(30);
-	        myStack.push(56);
-	        myStack.display();
+		 MyQueue myQueue = new MyQueue();
+	     myQueue.append(56);
+	        myQueue.append(30);
+	        myQueue.append(70);
+	        myQueue.display();
 
-	        while (myStack.head != null) {
-	            myStack.pop();
+	        while(myQueue.head != null) {
+	            myQueue.pop();
 	            System.out.println("Updated List: ");
-	            myStack.display();
+	            myQueue.display();
 	        }
 
-
-	    }
+	}
 
 
 }
