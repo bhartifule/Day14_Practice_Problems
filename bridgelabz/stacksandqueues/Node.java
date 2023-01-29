@@ -1,13 +1,12 @@
 package com.bridgelabz.stacksandqueues;
 
 public class Node<T> {
-	T key;
-    Node<T> next;
+	 T key;
+	    Node<T> next;
 
-    public Node(T key ) {
-        this.key = key;
+	    public Node(T key ) {
+	        this.key = key;
 
-    }
-
+	    }
 	}
 

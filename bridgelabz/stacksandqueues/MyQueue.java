@@ -1,18 +1,19 @@
 package com.bridgelabz.stacksandqueues;
 
-public class MyStacks <T>{
+public class MyQueue <T>{
 	 Node<T> head;
 	    Node<T> tail;
 
-	    public void push(T key) {
+	    public void append(T key) {
 	        Node<T> newNode = new Node<>(key);
 	        if (head == null) {
 	            head = newNode;
 	            tail = newNode;
 	        } else {
-	            newNode.next = head;
-	            head = newNode;
+	            tail.next = newNode;
+	            tail = newNode;
 	        }
+
 	    }
 	    public void display() {
 	        Node<T> temp = head;
@@ -42,12 +43,12 @@ public class MyStacks <T>{
 
 	    }
 
+
 	    public void peak(){
 	        if ( head != null){
 	            System.out.println("Top most element is "+ head.key);
 	        }else {
 	            System.out.println("No element present in list");
 	        }
-	    
 	    }
 }
