@@ -10,8 +10,8 @@ public class MyQueue <T>{
 	            head = newNode;
 	            tail = newNode;
 	        } else {
-	            tail.next = newNode;
-	            tail = newNode;
+	             tail.next = newNode;
+	             tail = newNode;
 	        }
 
 	    }
