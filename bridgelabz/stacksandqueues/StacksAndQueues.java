@@ -9,7 +9,7 @@ public class StacksAndQueues{
 	        myStack.push(56);
 	        myStack.display();
 
-	        while (myStack.head != null) {
+	           while (myStack.head != null) {
 	            myStack.pop();
 	            System.out.println("Updated List: ");
 	            myStack.display();
