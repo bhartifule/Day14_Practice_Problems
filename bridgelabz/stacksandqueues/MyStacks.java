@@ -20,7 +20,7 @@ public class MyStacks <T>{
 	            if (temp.next == null) {
 	                System.out.print(temp.key);
 	            } else {
-	                System.out.print(temp.key + " -> ");
+	                  System.out.print(temp.key + " -> ");
 	            }
 	            temp = temp.next;
 	        }
