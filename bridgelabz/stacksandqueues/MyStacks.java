@@ -40,7 +40,7 @@ public class MyStacks <T>{
 	            }
 	        }
 
-	    }
+	  }
 
 	    public void peak(){
 	        if ( head != null){
