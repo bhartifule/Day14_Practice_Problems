@@ -1,6 +1,7 @@
 package com.bridgelabz.stacksandqueues;
 
-public class MyQueue <T>{
+public class MyQueue <T>
+{
 	 Node<T> head;
 	    Node<T> tail;
 
