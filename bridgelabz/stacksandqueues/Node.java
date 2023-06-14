@@ -2,6 +2,7 @@ package com.bridgelabz.stacksandqueues;
 
 public class Node<T>
 {
+
 	T key;
     Node<T> next;
 
