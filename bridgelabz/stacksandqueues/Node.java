@@ -1,6 +1,7 @@
 package com.bridgelabz.stacksandqueues;
 
-public class Node<T> {
+public class Node<T> 
+{
 	 T key;
 	    Node<T> next;
 
