@@ -1,7 +1,8 @@
 package com.bridgelabz.stacksandqueues;
 
 public class StacksAndQueues{
-	 public static void main(String[] args) {
+	 public static void main(String[] args)
+	 {
 
 		MyStacks myStack = new MyStacks();
 	        myStack.push(70);
